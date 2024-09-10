@@ -1,0 +1,65 @@
+p{
+  color: #e185ef;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+}
+h1{
+  color: #2e079a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nội dung trên overlay */
+.content {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  color: white;
+}
+
+#myHeader {
+  background-color: rgb(255, 255, 255);
+  color: rgb(198, 98, 241);
+  padding: 30px;
+  text-align: center;
+  
+
+}
+li {
+  list-style: none;
+  height: 40px;
+}
+a:hover {
+  color: red;
+}
+a {
+  color: #0c9641;
+  line-height: 50px;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  font-style: italic;
+}
+i {
+  text-decoration: #000;
+}
+i:hover {
+  color: red;
+}
+header {
+    position: absolute;
+    height: 80px;
+    width: 100%;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+header h1 {
+  color: #1d00be;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+}
+
+.container{
+    margin-top: 100px;
+}
